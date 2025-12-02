@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - Desarrollo Lógico y Algoritmo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1021;
+      color: #e4e4e4;
+    }
+    header {
+      background: #1a1f36;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #4dd0e1;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #13172b;
+      padding: 15px;
+    }
+    nav a {
+      padding: 10px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      border-radius: 5px;
+    }
+    .tareas { background: #ff9800; }
+    .parciales { background: #e53935; }
+    .cmas { background: #1565c0; }
+    .python { background: #43a047; }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .foto {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .foto img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #4dd0e1;
+      object-fit: cover;
+    }
+    h2 {
+      color: #4dd0e1;
+      border-left: 5px solid #4dd0e1;
+      padding-left: 10px;
+    }
+    .habilidades {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .habilidad {
+      background: #1a1f36;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .habilidad img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    .upload-box {
+      margin: 20px 0;
+      padding: 15px;
+      background: #1a1f36;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Desarrollo Lógico y Algoritmo</h1>
+  </header>
+
+  <nav>
+    <a class="tareas" href="#tareas">Tareas y talleres</a>
+    <a class="parciales" href="#parciales">Parciales</a>
+    <a class="cmas" href="#codigos-cpp">Códigos C++</a>
+    <a class="python" href="#codigos-python">Códigos Python</a>
+  </nav>
+
+  <div class="container">
+    <div class="foto">
+      <img src="mi foto.jpeg" alt="Mi fotografía">
+    </div>
+    <h2> Ramiro Caballero</h2>
+    <p>Este curso de Desarrollo Lógico y Algoritmo fortaleció mi forma de pensar y resolver problemas. Aprendí a analizar situaciones, dividirlas en pasos lógicos y transformarlas en soluciones prácticas usando C++, Python, MySQL, máquinas virtuales, Cisco Packet Tracer y diseño web.
+
+El proceso incluyó tareas, proyectos y ejercicios que me ayudaron a mejorar, corregir errores y avanzar con más seguridad. Este portafolio representa ese aprendizaje y las habilidades que desarrollé durante el curso.</p>
+
+    <h2>Habilidades aprendidas en el curso</h2>
+    <div class="habilidades">
+      <div class="habilidad"><img src="c++.png"><p>C++</p></div>
+      <div class="habilidad"><img src="python.jpg"><p>Python</p></div>
+      <div class="habilidad"><img src="mysql.png"><p>MySQL</p></div>
+      <div class="habilidad"><img src="maquinas.png"><p>Máquinas Virtuales</p></div>
+      <div class="habilidad"><img src="cisco.jpg"><p>Cisco Packet Tracer</p></div>
+      <div class="habilidad"><img src="html.png"><p>Diseño Web</p></div>
+    </div>
+
+    <h2 id="tareas">Tareas y talleres</h2>
+    <div class="upload-box"><ul>
+  <li><a href="Hexagrama.pdf" download>Hexagrama</a></li>
+  <li><a href="Infografía.pdf" download>Infografía</a></li>
+  <li><a href="Laboratorio practico 1 DLYA.pdf"download> Laboratorio practico 1 DLYA</a></li>
+  <li><a href="Laboratorio 2 oficial.pdf" download>Laboratorio 2 oficial</a></li>
+  <li><a href="Investigacion 2 progrmacionOFI.pdf" download>Investigacion 2 progrmacionOFI</a></li>
+  <li><a href="Ejercicio Práctico 2.OFICIAL.pdf" download>Ejercicio Práctico 2.OFICIAL</a></li>
+  <li><a href="Taller DLYA avance (2).pdf" download>Taller DLYA avance (2)</a></li>
+
+
+
+
+  <!-- Agrega más archivos aquí -->
+</ul></div>
+
+    <h2 id="parciales">Parciales</h2>
+    <div class="upload-box"><ul>
+  <li><a href="Parcial 1 programacion official.pdf" download>Parcial 1 programacion official</a></li>
+  <li><a href="parcial2oficial (1).pdf" download>parcial2oficial (1)</a></li>
+  <!-- Agrega más archivos aquí -->
+</ul></div>
+
+    <h2 id="codigos-cpp">Códigos de C++</h2>
+    <div class="upload-box"><ul>
+  <li><a href="primer progrma practica.cpp" download>primer progrma practica</a></li>
+  <li><a href="Problema 1 parcial.cpp" download>Problema 1 parcial</a></li>
+  <li><a href="Problema 2 parcial.cpp" download>Problema 2 parcial</a></li>
+  <li><a href="Problema 3 parcial.cpp" download>Problema 3 parcial</a></li>
+  <li><a href="Problema 4 parcial.cpp" download>Problema 4 parcial</a></li>
+  <li><a href="Problema 5 parcial.cpp" download>Problema 5 parcial</a></li>
+  <li><a href="Programa1.cpp" download>Programa1</a></li>
+  <li><a href="segundo programa practica.cpp" download>segundo programa practica</a></li>
+
+  <!-- Agrega más archivos aquí -->
+</ul></div>
+
+    <h2 id="codigos-python">Códigos de Python</h2>
+    <div class="upload-box"><ul>
+  <li><a href="apps de alquilere equipos.py" download>apps de alquilere equipos</a></li>
+  <li><a href="POS.py" download>POS</a></li>
+  <li><a href="problema 1 python.py" download>problema 1 python</a></li>
+  <li><a href="problema 2 python.py" download>problema 2 python</a></li>
+ 
+  <!-- Agrega más archivos aquí -->
+</ul></div>
+  </div>
+</body>
+</html>
